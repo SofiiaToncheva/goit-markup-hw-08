@@ -1,0 +1,45 @@
+.duties-section {
+    padding-top: 0px;
+    padding-bottom: 94px;
+
+}
+
+.section-main-title {
+
+    font-style: normal;
+    @include font (36px, 700, 42px);
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+
+    color: var(--title-font-color);
+}
+
+.duties-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.what-we-do {
+    position: relative;
+}
+
+
+.what-we-do-overlay {
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    font-size: 14px;
+    line-height: 1.14;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 700;
+}

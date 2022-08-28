@@ -1,0 +1,36 @@
+.logo-accent-footer {
+    color: #FFFFFF;
+    font-style: normal;
+    @include font (26px, 700, 31px);
+    
+    letter-spacing: 0.03em;
+}
+
+
+
+.list__item {
+    margin-bottom: 9px;
+
+
+
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.footer-social-list__link {
+    transition: background-color var(--transition-function);
+}
+
+
+.list__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    @include font (14px, 400, 24px);
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
